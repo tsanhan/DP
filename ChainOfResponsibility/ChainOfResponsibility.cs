@@ -10,9 +10,10 @@ namespace DP
     {
         protected BillHandler next;
 
-        public void SetNext(BillHandler next)
+        public BillHandler SetNext(BillHandler next)
         {
             this.next = next;
+            return this.next;
         }
 
         public abstract void HandleRequest(int amount);
