@@ -28,7 +28,6 @@ namespace DP.Factory
             if (creator == null) return;
             Emoji emoji = creator.CreateEmoji(position);
             chat.AddEmoji(emoji);
-            
         }
     }
 }
